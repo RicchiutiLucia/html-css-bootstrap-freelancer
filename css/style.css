@@ -1,3 +1,11 @@
 .ms-bg-blue {
     background-color: #3a546d;
 }
+.ms-bg {
+    background-color: #4BB99E;
+}
+.ms-box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
