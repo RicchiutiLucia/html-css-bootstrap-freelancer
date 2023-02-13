@@ -21,3 +21,8 @@
     background-color: #4BB99E;
     border-radius: 5px;
 }
+.ms-form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
