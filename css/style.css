@@ -12,32 +12,37 @@ main{
 .ms_bg {
     background-color: #4BB99E;
 }
-#intro img{
-    max-width: 40%;
-}
-.ms_box{
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
-}
-
-.ms_line_sm{
-    border: 1px solid;
-    width: 50px;
-    height: 1px;
-}
 .ms_line_md{
     border: 1px solid;
     width: 130px;
     height: 1px;
 }
-.ms_btn {
-    border: 1px solid white;
+.ms_plus{
+    display: none;
+    font-size: 10rem;
     color: white;
-    border-radius: 5px;
-    background-color: #4BB99E;
 }
-.ms_bg_btn:hover{
+.plus_hover {
+    position: relative;
+}
+
+.plus_hover img:hover{
+    background-color: #4BB99E;
+    opacity: 0.5;
+    position: relative;
+}
+
+.plus_hover img:hover + .ms_plus{
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    
+}
+.ms_btn {
+    background-color:#1abc9c;
+}
+.ms_btn:hover{
     background-color: #4BB99E;
     border: #ccc;
 }
@@ -63,19 +68,19 @@ main{
 }
 /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
 ::-webkit-input-placeholder { 
-    color: #78828d;
+    color: #2c3e50;
 }
 /* Mozilla Firefox 4 to 18 */
 :-moz-placeholder { 
-   color:#78828d;
+   color:#2c3e50;
    opacity: 1;
 }
 /* Mozilla Firefox 19+ */
 ::-moz-placeholder { 
-   color: #78828d;
+   color: #2c3e50;
    opacity: 1;
 }
 /* Internet Explorer 10+ */
 :-ms-input-placeholder { 
-   color:#78828d;
+   color:#2c3e50;
 }
