@@ -28,7 +28,7 @@ main{
 
 .ms_overlay{
     position: absolute;
-    background-color: rgba(26, 255, 50,0.4);
+    background-color: rgba(14, 247, 212, 0.6);
     width: calc(100% - 16px);
     opacity: 0;
     transition: opacity 0.5s;
