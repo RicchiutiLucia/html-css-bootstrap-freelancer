@@ -4,8 +4,6 @@ header{
 main{
     padding-top: 70px;
 }
-
-
 .ms_bg_blue {
     background-color: #3a546d;
 }
@@ -17,28 +15,6 @@ main{
     width: 130px;
     height: 1px;
 }
-.ms_plus{
-    display: none;
-    font-size: 10rem;
-    color: white;
-}
-.plus_hover {
-    position: relative;
-}
-
-.plus_hover img:hover{
-    background-color: #4BB99E;
-    opacity: 0.5;
-    position: relative;
-}
-
-.plus_hover img:hover + .ms_plus{
-    display: block;
-    position: absolute;
-    top: 2%;
-    left: 35%;
-    
-}
 .ms_btn {
     background-color:#1abc9c;
 }
@@ -46,7 +22,27 @@ main{
     background-color: #4BB99E;
     border: #ccc;
 }
+.ms_box{
+    position: relative;
+}
 
+.ms_overlay{
+    position: absolute;
+    background-color: rgba(26, 255, 50,0.4);
+    width: calc(100% - 16px);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.ms_overlay i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+.ms_overlay:hover{
+    opacity: 1;
+}
 .ms_form_control {
     border: none;
     border-bottom: 1px solid #ccc;
